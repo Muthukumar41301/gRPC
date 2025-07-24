@@ -7,7 +7,7 @@ option java_outer_classname="vehicleDetailsProto";
 
 service VehicleDetails{
 
-  // UNARY - RPC -> get current stock price
+  // UNARY - RPC -> get vehicle details
   rpc getVehicleDetails(VehicleRequest) returns (VehicleResponse);
 
   //server streaming
